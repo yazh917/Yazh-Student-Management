@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Imghome {
+
+    width: 50px;
+    position: fixed;
+}
+
+.subjects-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 3%;
+}
+
+.subject-card {
+
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.subject-card:hover {
+
+    transform: scale(1.1);
+    background-color: deepskyblue;
+}
+
+.subject-card img {
+
+    max-width: 200%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.BG {
+
+    background-color: tan;
+    background-size: 500px;
+    background-attachment: fixed;
+}

@@ -1,0 +1,44 @@
+.CRUP {
+
+	background-color: lavender;
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 33%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+.Crnamefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.Crdesfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.Crimagefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+
+.label_design {
+
+	display: inline-block;
+	color:blue;
+	width: 140px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.btnupdateCr {
+
+	height: 50px;
+	width: 100px;
+}

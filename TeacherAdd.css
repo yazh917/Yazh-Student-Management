@@ -1,0 +1,51 @@
+
+.TeacherAdd {
+
+	background: url('BGATF.jpg');
+	background-size: cover;
+	display: inline-block;
+	margin-top: 9%;
+	margin-left: 18%;
+
+}
+
+.TCidfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.TCnamefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+
+.TCdescription {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+
+.TCphoto {
+
+	width: 350px;
+	font-size: 15px;
+}
+
+.label_design {
+
+	display: inline-block;
+	color:blue;
+	width: 140px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.btnAddTC {
+
+	height: 50px;
+	width: 100px;
+}

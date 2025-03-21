@@ -1,0 +1,39 @@
+.TitleView {
+
+	margin-top: 6%;
+	margin-right: 360px;
+}
+
+
+.label_design {
+
+	color:white;
+	background-color: black;
+	width: 140px;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+}
+
+.td_design {
+
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	background: url('BGCVF.jpg');
+	background-size: cover;
+	font-size: 15px;
+}
+
+.ViewCourse {
+
+	padding-left: 150px;
+	height: 40px;
+}
+
+.BG {
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

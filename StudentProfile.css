@@ -1,0 +1,72 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+
+.design {
+
+	margin-left: 33.5%;
+}
+
+.h1 {
+	margin-left: 47%;
+}
+
+.label_design {
+
+	display: inline-block;
+	color:white;
+	width: 140px;
+	text-align: left;
+	font-size: 18px;
+}
+
+
+.STnamefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+
+.STpassfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STemailfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STphonefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.btnProfile {
+
+	width: 80px;
+	height: 40px;
+	margin-left: 42%;
+}
+
+.BGform {
+
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+.BGSP {
+
+	background-size: cover;
+}

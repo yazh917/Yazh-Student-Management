@@ -1,0 +1,73 @@
+
+.STUP {
+
+	background-color: lavender;
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 33%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.STidfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STnamefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STagefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STgenderfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STcoursefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STpassfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STemailfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.STphonefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.label_design {
+
+	display: inline-block;
+	color:blue;
+	width: 140px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.btnupdateST {
+
+	height: 50px;
+	width: 100px;
+}

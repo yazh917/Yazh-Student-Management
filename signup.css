@@ -1,0 +1,94 @@
+.Form_design
+{
+	padding-top: 150px;
+	position: relative;
+}
+
+.label_design {
+
+	display: inline-block;
+	color:white;
+	width: 100px;
+	text-align: left;
+	font-size: 18px;
+
+}
+
+.Form_login
+{
+	background: url('BGSF.jpg');
+	width: 550px;
+	height: 270px;
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+
+.NameField {
+
+	width: 350px;
+	height: 25px;
+}
+
+.PassField {
+
+	width: 350px;
+	height: 25px;
+
+}
+
+.EmailField {
+
+	width: 350px;
+	height: 25px; 
+}
+
+.PhoneField {
+
+	width: 350px;
+	height: 25px; 
+}
+
+.btnback {
+
+	margin-right: 400px;
+	width: 100px;
+	height: 40px;
+	color: black;
+	background-image: url(arrowleft.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: left;
+	cursor: pointer;
+}
+
+
+.signupbtn  {
+
+	width: 120px;
+	height: 35px;
+}
+
+
+.Title_login
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 550px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+
+.login_backg
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 1600px;
+
+}
+
+.A {
+	width: 100px;
+	margin-left: 165%;
+}

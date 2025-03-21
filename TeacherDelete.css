@@ -1,0 +1,87 @@
+.TCUP {
+
+	background: url("BGDTF.jpg");
+	background-size: cover;
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 33%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.TCidfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.TCnamefield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.TCpassfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.TCemailfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.TCdesfield {
+
+	width: 350px;
+	font-size: 15px;
+}
+
+.TCperfield {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+
+.label_design {
+
+	display: inline-block;
+	color:blue;
+	width: 140px;
+	text-align: left;
+	font-size: 18px;
+}
+
+
+
+.btnSearchTC {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btnSearchTC:hover {
+    background-color: #0056b3;
+}
+
+.btnDeleteTC {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btnDeleteTC:hover {
+    background-color: #c82333;
+}
+

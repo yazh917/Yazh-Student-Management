@@ -1,0 +1,44 @@
+.TableAD {
+
+	margin-left: 2%;
+}
+
+.status-pending {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status-approved {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status-rejected {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table td {
+
+    color: black;
+}
+
+table td:hover {
+
+    background-color: whitesmoke;
+}
+
+.BG {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}

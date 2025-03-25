@@ -1,0 +1,110 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.headerAD {
+
+	background-color: chocolate;
+	line-height: 80px;
+	padding-left: 30px;
+	font-size: 30px;
+}
+
+.headerAD a {
+
+	text-decoration: none!important;	
+	color: white;
+	font-family: Times New Roman;
+}
+
+.headerAD a:hover {
+
+	color: lightcoral;
+}
+
+.logoutAD 
+{
+	float: right;
+	padding-right: 30px;
+	color: black;
+}
+
+
+.backgroundUL {
+
+	background: url('BGBS1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 2.5%;
+
+}
+
+ul li {
+
+	display: inline-block;
+	margin: 0 150px;
+	padding-left: 190px;
+	list-style: none;
+	padding-bottom: 40px;
+	font-size: 20px;
+
+}
+
+ul li a {
+
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+ul li a:hover {
+
+	color: hotpink;
+}
+
+.contentAD {
+
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.stats-widget {
+    
+    display: flex;
+    gap: 55px;
+    margin-left: 24%;
+}
+
+.widget-box {
+            
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.1s;
+    cursor: pointer;
+}
+
+.widget-box:hover {
+    transform: scale(1.2);
+    background-color: blueviolet; 
+}
+
+
+.widget-box h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+}
+
+.BG {
+
+	background-size: cover;
+	background-attachment: fixed;
+}

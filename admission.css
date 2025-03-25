@@ -1,0 +1,40 @@
+button {
+
+	width: 60px;
+	cursor: pointer;
+}
+
+button:hover {
+
+	background-color: pink;
+}
+
+.status-pending {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status-approved {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status-rejected {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.BG {
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}

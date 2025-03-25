@@ -1,0 +1,50 @@
+.TitleView {
+
+	margin-top: 6%;
+	margin-right: 10%;
+}
+
+
+.label_design {
+
+	color:white;
+	background-color: black;
+	width: 120px;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+}
+
+.td_design {
+
+	width: 120px;
+	height: 70px;
+	text-align: center;
+	background:url('BGUSF.jpg');
+	background-size: cover;
+	font-size: 15px;
+}
+
+.ViewStudent {
+
+	height: 40px;
+	margin-left: 1%;
+}
+
+.Updatebtn {
+
+	width: 100px;
+	height: 50px;
+
+}
+
+.Updatebtn:hover {
+
+	color: deeppink;
+}
+
+.BG {
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}

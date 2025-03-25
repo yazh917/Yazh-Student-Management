@@ -1,0 +1,119 @@
+.Form_design
+{
+	padding-top: 125px;
+	position: relative;
+}
+
+.label_design {
+
+	display: inline-block;
+	color:white;
+	width: 100px;
+	text-align: left;
+
+}
+
+.Form_login
+{
+	background-color: silver;
+	width: 550px;
+	height: 390px;
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+
+.IDField {
+
+	width: 350px;
+}
+
+.NameField {
+
+	width: 350px;
+
+}
+
+.PassField {
+
+	width: 350px;
+}
+
+.label_design2 {
+
+	margin-right: 310px;
+}
+
+.label_design2 a {
+
+	color: white;
+	text-decoration: none;
+}
+
+.label_design2 a:hover {
+
+	color: black;
+}
+
+.label_design3 {
+
+	margin-right: 305px;
+
+}
+
+.label_design3 a{
+
+	color: white;
+	text-decoration: none;
+}
+
+.label_design3 a:hover {
+
+	color: black;
+}
+
+
+
+.Title_login
+{
+	background-color: burlywood;
+	color: white;
+	text-align: center;
+	width: 550px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	margin-top: 28px;
+}
+
+.login_backg
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+nav {
+	position: fixed;
+    background-color: orangered;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+    font-size: 25px;
+    position: relative;
+    left: 3%;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.title a {
+	text-decoration: none;
+	color: white; 
+}
+
+.title a:hover {
+
+	color: purple;
+}

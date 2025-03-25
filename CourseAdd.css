@@ -1,0 +1,58 @@
+.CourseAdd {
+
+	display: inline-block;
+	margin-top: 13%;
+	margin-left: 40%;
+	color: white;
+	background: url('BGCAF.jpg');
+	background-size: cover;
+}
+
+.CName {
+
+	display: inline-block;
+	width: 140px;
+	padding-left: 30px;
+
+}
+
+.Cdes {
+
+	display: inline-block;
+	width: 140px;
+	padding-left: 30px;
+}
+
+.CImage {
+
+	display: inline-block;
+	width: 140px;
+	padding-left: 30px;
+}
+
+.NameField {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.DesField {
+
+	width: 350px;
+	font-size: 18px;
+}
+
+.Cfield {
+
+	width: 350px;
+	font-size: 15px;
+}
+
+.Coursebtn {
+
+
+	width: 100px;
+	height: 50px;
+	margin-left: 250px;
+
+}

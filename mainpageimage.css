@@ -1,0 +1,43 @@
+.main_image
+{
+	width: 100%;
+	height: 600px;
+}
+
+
+.image2
+{
+	width: 100%;
+	height: 300px;
+}
+
+.container
+{
+	padding-top: 20px;
+}
+
+.welcome_text
+{
+	font-size: 17px;
+}
+
+.teacher
+{
+	width: 100%;
+	height: 380px;
+}
+
+.teacher_info
+{
+	font-size: 13px;
+	text-align: justify;
+	text-justify: value;
+}
+
+.Course
+{
+	width: 100%;
+	height: 380px;
+	margin-top: 12%;
+
+}

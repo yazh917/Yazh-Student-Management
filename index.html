@@ -1,0 +1,320 @@
+<?php
+
+include('index.php'); 
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yz Student Management System</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mainpageimage.css">
+    <link rel="stylesheet" href="mainpageADform.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body background="w.gif" class= "index_backg">
+   
+       <nav>
+        <label class="title">Yazh Student Management</label>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Teacher">Teacher</a></li>
+            <li><a href="#Course">Course</a></li>
+            <li><a href="#ADForm">Admission</a></li>
+            <li><a href="loginStudent.html" class="btn btn-success">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="image1">
+
+    	<img class= "main_image" src="Imgindex.jpg">
+
+    </div>
+
+    <div class="search-forms">
+        <form method="GET" action="searchTeacher.php" class="search">
+            <input type="text" name="search" placeholder="Search Teacher" required>
+            <button type="submit">Search Teacher</button>
+        </form>
+
+        <form method="GET" action="searchCourse.php" class="search">
+            <input type="text" name="search" placeholder="Search Course" required>
+            <button type="submit">Search Course</button>
+        </form>
+
+        <form method="GET" action="searchSubject.php" class="search">
+            <input type="text" name="search" placeholder="Search Subject" required>
+            <button type="submit">Search Subject</button>
+        </form>
+    </div>
+
+
+    <br>
+    <div class="container">
+
+    	<div class="row">
+
+    	<div class="col-md-4">
+
+    		<img class= "image2" src="Imgindex1.jpg">
+
+    	</div>
+
+    	<div class="col-md-8">
+
+ 			<h1> Welcome !!</h1>
+ 			<br>
+ 			<p1 class= "welcome_text"> At Our School, we belive in simplifying the journery of managing student information. Whether you're an administrator juggling multiple task or a student navigating through the system, our platform is designed to provide an effortless experience. Add, update, view, manage student data with just a few clicks. Stay organized, stay informed, and let our system take care the rest. With and intuitive interface and smart tiils at uour fingertips, managing academic life has never been easier.</p1>
+
+ 			<br><br><br><br>
+ 			<p2 class= "welcome_text">Let's get started, and welcome to a world where simplicity meets efficiency</p2>
+
+    	</div>
+
+    	</div>
+
+    </div>
+
+    <br><br>
+    <hr>
+    <br>
+    <center>
+    	<h1 id="Teacher">Our Teacher</h1>
+    </center>
+
+    <div class="container">
+
+    	<div class="row">
+
+
+    	<?php
+
+    	while($info=$result->fetch_assoc()) {
+
+    	?>
+
+    	<div class="col-md-4">
+
+
+    		<img class= "teacher" src="<?php echo "{$info['PersonalPhoto']}" ?> ">
+    		<p><b><?php echo "{$info['TeacherName']}" ?> </b></p> 
+   
+    		<p class = "teacher_info"><?php echo "{$info['Description']}" ?> </p>
+
+    		<br><br>
+
+    	</div>
+
+    	<?php 
+			}
+
+    	?>
+    	
+    	
+    	</div>
+
+    </div>
+	
+
+		<hr>
+		<br>
+		<h1 id="Course"><center>Our Course</center></h1>
+
+		<div class="container">
+
+    	<div class="row">
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=1">
+    		<img class= "Course" src="DIT.jpg">
+    		</a>
+    		<p><b><center>Diploma in Information Technology</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=2">
+    		<img class= "Course" src="DDM.jpg">
+    		</a>
+    		<p><b><center>Diploma in Digital Marketing</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=3">
+    		<img class= "Course" src="DBM.jpg">
+    		</a>
+    		<p><b><center>Diploma in Business Management</center></b></p> 
+    	</div>
+
+
+		<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=4">
+    		<img class= "Course" src="DFD.jpg">
+    		</a>
+    		<p><b><center>Diploma in Fashion Design</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=5">
+    		<img class= "Course" src="DGD.jpg">
+    		</a>
+    		<p><b><center>Diploma in Graphic Design</center></b></p> 
+    	</div>
+
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=6">
+    		<img class= "Course" src="DECE.jpg">
+    		</a>
+    		<p><b><center>Diploma in Early Childhood Education</center></b></p> 
+    	</div>
+    	
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=7">
+    		<img class= "Course" src="BL.jpg">
+    		</a>
+    		<p><b><center>Bachelor of Law (LLB)</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=8">
+    		<img class= "Course" src="BCS.jpg">
+    		</a>
+    		<p><b><center>Bachelor of Computer Science</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=9">
+    		<img class= "Course" src="BM.jpg">
+    		</a>
+    		<p><b><center>Bachelor of Marketing</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=10">
+    		<img class= "Course" src="BHR.jpg">
+    		</a>
+    		<p><b><center>Bachelor of Human Resource Management</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=11">
+    		<img class= "Course" src="BBS.jpg">
+    		</a>
+    		<p><b><center>Bachelor of Biomedical Science</center></b></p> 
+    	</div>
+
+    	<div class="col-md-4">
+
+    		<a href="Subjects.php?IDCourse=12">
+    		<img class= "Course" src="BA.jpg">
+    		</a>
+    		<p><b><center>Bachelor of Accounting</center></b></p> 
+    	</div>
+
+    	</div>
+	</div>
+</body>
+
+	<br>
+	<hr><center>
+	<br>
+	<h1 class= "adform" id="ADForm" >Admission Form</center></h1>
+
+	<div align="center" class=form_admission>
+
+		<form action="AdmissionCheck.php" method="POST">
+
+			<br>
+			<div>
+				<center><label class= "adformlabel">Name:</label>
+				<input class = "adinfo" type="text" name= "Name" required></center>
+			</div>
+
+			<br>
+			<div>
+				<label class= "adformlabel">IC:</label>
+				<input class = "adinfo" type="text" name= "IC" required>
+			</div>
+
+			<br>
+			<div>
+				<label class= "adformlabel">Email:</label>
+				<input class = "adinfo" type="text" name= "Email" required>
+			</div>
+
+			<br>
+			<div>
+				<label class= "adformlabel">Phone:</label>
+				<input class = "adinfo" type="text" name= "Phone" required>
+			</div>
+
+			<br>
+			<div>
+				<label class= "adformlabel">Message Box:</label>
+				<textarea class= "MessBox" name="Message" ></textarea>
+			</div>		
+
+			<br>
+			<div>	
+				<input class= "btnsub" id="submit" type="submit" value="Apply" name="Apply">
+			</div>
+
+		</form>
+	</div>
+
+	<br>
+	<footer class="footer">
+	    <div class="footer-container">
+	        <div class="footer-section">
+	            <h2>Contact Us</h2>
+	            <br>
+	            <p>
+	                Email: <a href="mailto:ongyangzhi04@gmail.com" class="contact-link">ongyangzhi04@gmail.com</a>
+	            </p>
+	            <p>
+	                WhatsApp: <a href="https://wa.me/601121524231" target="_blank" class="contact-link">+6011-21524231</a>
+	            </p>
+	            <p>
+	                Address: 123, Taman Langkap, Kuala Lumpur, Malaysia
+	            </p>
+	        </div>
+	        <div class="footer-section">
+	            <h2>Follow Us</h3>
+	            <br>
+	            <a href="https://www.facebook.com/share/19JZxMc6RR/"><img src="IconFb.jpg" alt="Facebook" class="social-icon"></a>
+	            <a href="https://v.douyin.com/iUMeBAr6/"><img src="IconDy.jpg" alt="Douyin" class="social-icon"></a>
+	            <a href="https://www.instagram.com/yangz_917/profilecard/?igsh=ZGVpZzg3M3JoNmFj"><img src="IconInsta.jpg" alt="Instagram" class="social-icon"></a>
+
+	        </div>
+
+	         <a href="Chiayee.php">
+	         <img src="Webarebears.jpg" class="BGFT">
+	     	 </a>
+	    </div>
+	    <div class="footer-bottom">
+	        <center><p><?php echo date("Y"); ?> Yazh Student Management System.</p></center>
+	    </div>
+
+
+	</footer>
+
+
+</body>
+</html>

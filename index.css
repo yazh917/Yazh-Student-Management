@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav {
+    position: fixed;
+    background-color: orangered;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+    font-size: 25px;
+    position: relative;
+    left: 3%;
+    color: white; 
+    font-weight: bold;
+    line-height: 70px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px; 
+}
+
+ul li a:hover {
+
+    color: blueviolet;
+}
+
+.index_backg {
+
+	background-repeat: repeat;
+	background-size: 500px;
+}
+
+
+.ADback {
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.search-forms {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.search:hover {
+
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; 
+    outline: none;
+}
+
+
+.search button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: orangered;
+}
+
+
+.footer {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer-container {
+
+    background: url('snow.gif');
+    display: flex;
+    padding: 10px 20px;
+
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    max-width: 600px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 22px
+    color: #f4c842;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 17px;
+
+}
+
+.contact-link {
+    color: #f4c842;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #ddd;
+}
+
+
+.social-icon {
+    width: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: #aaa;
+    padding: 10px 0;
+    font-size: 0.8rem;
+}
+
+.BGFT {
+
+    width: 150px;
+}

@@ -1,0 +1,130 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.btnlogout {
+
+	width: 80px;
+	height: 50px;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+
+.headerTC {
+
+	width: 100%;
+	height: 80px;
+	background: url('BGBT1.jpg');
+	background-size: cover;
+	line-height: 80px;
+	padding-left: 50px;
+	font-size: 30px;
+	position: fixed;
+	z-index: 1;
+}
+
+.headerTC a {
+
+	text-decoration: none!important;	
+	color: black;
+	font-family: Times New Roman;
+}
+
+.headerTC a:hover {
+
+	color: lightcoral;
+}
+
+.logoutTC
+{
+	float: right;
+	padding-right: 110px;
+	color: black;
+}
+
+
+.backgroundUL {
+
+	
+	background: url('BGBT.jpg');
+	background-size: cover;
+	width: 230px;
+	height: 100%;
+	padding-top: 7%;
+	text-align: center;
+	position: fixed;
+	margin-left: 1310px;
+}
+
+ul li {
+
+	list-style: none;
+	padding-bottom: 40px;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+ul li a {
+
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+ul li a:hover {
+
+	color: hotpink;
+}
+
+.TableTC {
+
+	margin-left: 18%;
+	margin-top: 2%;
+}
+
+
+.contentTC {
+
+	padding-left: 450px;
+	padding-top: 120px;
+}
+
+.stats-widget {
+    
+    display: flex;
+    gap: 55px;
+    margin-left: 8%;
+}
+
+.widget-box {
+            
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 13%;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.1s;
+    cursor: pointer;
+}
+
+.widget-box:hover {
+    transform: scale(1.2);
+    background-color: blueviolet; 
+}
+
+
+.widget-box h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+.BG {
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,152 @@
+.Form_design
+{
+	padding-top: 150px;
+	position: relative;
+}
+
+.label_design {
+
+	display: inline-block;
+	color:black;
+	width: 100px;
+	text-align: left;
+
+}
+
+.Form_login
+{
+	background: url('BGSLF.jpg');
+	background-size: cover;
+	width: 550px;
+	height: 390px;
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+
+.NameField {
+
+	width: 350px;
+}
+
+.PassField {
+
+	width: 350px;
+
+}
+
+.EmailField {
+
+	width: 350px; 
+}
+
+.label_design2 {
+
+	margin-right: 310px;
+	border-style: dotted;
+}
+
+.label_design2 a {
+
+	color: black;
+	text-decoration: none;
+}
+
+.label_design2 a:hover {
+
+	color: red;
+}
+
+.label_design3 {
+
+	margin-right: 305px;
+	border-style: dotted;
+	margin-top: 20px;
+}
+
+.label_design3 a{
+
+	color: black;
+	text-decoration: none;
+}
+
+.label_design3 a:hover {
+
+	color: red;
+}
+
+
+
+.btn-primary {
+
+	margin-left: 50px;
+}
+
+
+
+.signupbtn {
+
+	margin-left: 150px;
+	text-decoration: none;
+
+}
+
+
+.signupbtn a {
+
+	color: red;
+	text-decoration: none;
+
+}
+
+.signupbtn a:hover {
+
+	color: orange;
+
+}
+
+
+.Title_login
+{
+	background-color: blanchedalmond;
+	color: black;
+	text-align: center;
+	width: 550px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+
+.login_backg
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+nav {
+	position: fixed;
+    background-color: orangered;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+    font-size: 25px;
+    position: relative;
+    left: 3%;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.title a {
+	text-decoration: none;
+	color: white; 
+}
+
+.title a:hover {
+
+	color: purple;
+}

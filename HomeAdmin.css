@@ -1,0 +1,147 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.btnlogout {
+
+	width: 80px;
+	height: 50px;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+buttton {
+
+	cursor: pointer;
+}
+
+
+buttton:hover {
+
+	background-color: pink;
+}
+
+
+.headerAD {
+
+	width: 100%;
+	height: 80px;
+	background-color: moccasin;
+	line-height: 80px;
+	padding-left: 250px;
+	font-size: 30px;
+	position: fixed;
+}
+
+.headerAD a {
+
+	text-decoration: none!important;	
+	color: black;
+	font-family: Times New Roman;
+}
+
+.headerAD a:hover {
+
+	color: lightcoral;
+}
+
+.logoutAD 
+{
+	float: right;
+	margin-left: 77%;
+	color: black;
+	position: fixed;
+}
+
+.ScrollBar {
+
+	height: 100%;
+	overflow-y: auto;
+	position: fixed;
+}
+
+
+.backgroundUL {
+
+	
+	background : url('BGBA.jpg');
+	background-size: cover;
+	padding-top: 20%;
+	text-align: center;
+
+}
+
+ul li {
+
+	list-style: none;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 25px;
+	font-size: 20px;
+}
+
+ul li a {
+
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+ul li a:hover {
+
+	color: hotpink;
+}
+
+.TableAD {
+
+	margin-left: 18%;
+	margin-top: 2%;
+}
+
+.AdminHomeBackground {
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contentAD {
+
+	padding-left: 250px;
+	padding-top: 120px;
+}
+
+.stats-widget {
+    
+    display: flex;
+    gap: 55px;
+}
+
+.widget-box {
+            
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 13%;
+    text-align: center;
+    transition: transform 0.5s, background-color 0.1s;
+    cursor: pointer;
+}
+
+.widget-box:hover {
+    transform: scale(1.2);
+    background-color: blueviolet; 
+}
+
+
+.widget-box h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
